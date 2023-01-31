@@ -1,0 +1,210 @@
+/* General Code */
+
+body{
+    background-image: url("images/Background.png");
+    font-family: 'Syne', sans-serif;
+    color: #333;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+a{
+    color: initial;
+    text-decoration: none;
+}
+a:visited{
+    color: initial;
+}
+
+button{
+    width: 100%;
+    background-color: #000;
+    font-size: 18px;
+    padding: 5%;
+    border: none;
+    color: #fff;
+    margin: 5% 0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* MAIN */
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* PRESENTATION */
+
+.fixed-el{
+    width: 30%;
+    height: 70vh;
+    position: sticky;
+    top: 30px;
+}
+
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Pic{
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    border-radius: 200px;
+    border: 1px solid #000 ;
+}
+
+/* GALLERY */
+
+.overflow-el{
+    width: 60%;
+    padding-top: 5%;
+}
+
+.project{
+    margin-bottom: 50px; 
+    width: 100%; 
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+}
+
+#Payot{
+    background-image: url(images/Vignette-Payot.png);
+}
+
+#Orlane{
+    background-image: url(images/Vignette-ORL.png);
+    color: #004F9D;
+}
+
+#Feneaks{
+    background-image: url(images/Vignette-Feneaks.png);
+    color: #fff;
+}
+
+#RolllP{
+    background-image: url(images/Vignette-RP.png);
+    color: #869CE5;
+}
+
+
+#fffr{
+    background-image: url(images/Vignette-fffr.png);
+}
+
+#Empacy{
+    background-image: url(images/Vignette-Empacy.png);
+    color: #316CEF;
+}
+
+#wokies{
+    background-image: url(images/Vignette-wokies.png);
+    color: #4EBE90;
+}
+
+h3{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* Laptop */
+
+@media only screen and (max-width: 992px) {
+
+    main{
+        width: 80%;
+    }    
+    button{
+        font-size: 15px;
+    }
+    .fixed-el{
+        top: 5px;
+    }
+    .project{
+        height: 20vh;
+    }
+
+}    
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button{
+        font-size: 18px;
+    }
+
+    #Pic{
+        width: 50%;
+        height: auto;
+        border-radius: 250px;
+    }
+
+    .fixed-el{
+        width: 60%;
+        height: auto;
+        position:initial;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .project{
+        height: 35vh;
+    }    
+
+    .overflow-el{
+        width: 90%;
+    }
+    
+}
+
+/* Phone */
+
+@media only screen and (max-width: 500px) {
+
+    .fixed-el{
+        padding-top: 5%;
+        width: 90%;
+    }
+    .project{
+        height: 30vh;
+    }    
+    h3{
+        left: 10px;
+        margin: 0;
+        bottom: 10px;
+    }
+
+}
+
+/* Code test 
+
+*/
