@@ -315,7 +315,6 @@ section{
     color: #fff;
 }
 
-
 /* TOOLS & CREATIVE PROCESS*/
 
 #details{
@@ -336,16 +335,28 @@ section{
 }
 
 .project{
-    background-color: #F4F4F4;
     width: 100%; 
-    height: 20vh;
-    margin-bottom: 5%;
+    height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 5%;
     position: relative;
     border-radius: 10px;
 }
 
+.font-project{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+#Figma-FFFR{
+    background-image: url("fffr/Figma-fffr.png");
+}
+
+#Figma-FFFR2{
+    background-image: url("../images/Vignette-fffr.png");
+}
 
 footer{
     text-align: center;
@@ -434,6 +445,10 @@ footer{
         margin-right: -2%;
     }    
 
+    .project{
+        width: 100%; 
+        height: 30vh;
+    }
     footer{
         margin-bottom: 20%;
     }
@@ -445,6 +460,10 @@ footer{
 
     .display{
         flex-direction: column;
+    }
+
+    footer{
+        margin-bottom: 30%;
     }
 
 }
