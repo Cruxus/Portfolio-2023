@@ -1,456 +1,210 @@
 /* General Code */
 
-html{
-    scroll-behavior: smooth;
-}
-
 body{
-    background-image: url("../images/Background.png");
-    width: 80%;
-    margin: 0 auto;
+    background-image: url("images/Background.png");
     font-family: 'Syne', sans-serif;
     color: #333;
-}
-
-nav{
-    width: 80%;
-    bottom: 30px;
-    border: 1px #333 solid;
-    border-radius: 50px;
-    background-color: #fff;
-    position: fixed;
-    z-index: 1;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-ul>a{
-    width: 20%;
-}
-
-li{
-    text-align: center;
-    padding: 16px;
-    list-style: none;
-    border-radius: 50px;
-}
-
-nav ul a li:hover{
-    cursor: pointer;
-    color: #fff;
-    background-color: #1650E9;
-    transition-duration: 0.3s;
-}
-
-li:not(hover){
-    transition-duration: 0.3s;
-}
-
-a{
-    color: initial;
-    text-decoration: none;
-}
-
-h1{
-    font-size: 120px;
-    margin: 5% 0;
-    text-justify: center;
-    text-align: center;
 }
 
 h2{
     font-size: 20px;
 }
 
-h3{
-    font-size: 24px;
+.icon{
+    width: 40px;
+    height: 40px;
 }
 
-h4{
-    font-size: 26px;
+a{
+    color: initial;
+    text-decoration: none;
+}
+a:visited{
+    color: initial;
 }
 
-.star{
-    width: 15px;
-    height: 15px;
-    padding-right: 5px;
-    background-image: url('../images/star.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
-}
-
-#logo{
-    width: 10%;
-    height: auto;
-    position: fixed;
-    top: 50px;
-    z-index: 1;
+button{
+    width: 100%;
+    background-color: #000;
+    font-size: 18px;
+    padding: 5%;
+    border: none;
+    color: #fff;
+    margin: 5% 0;
+    cursor: pointer;
+    border-radius: 50px;
 }
 
 /* MAIN */
 
 main{
+    width: 60%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-section{
-    padding-top: 5%;
-    scroll-behavior: smooth;
+/* PRESENTATION */
+
+.fixed-el{
+    width: 30%;
+    height: 70vh;
+    position: sticky;
+    top: 30px;
 }
 
-/* DESIGNERS */
-
-#Presentation{
+#contact{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20% 0;
+    justify-content: space-between;
 }
 
-.display-designer{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.presentation-designer{
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.designers{
-    width: 8vh;
-    height: 10vh;
-    margin-right: 5%;
+#Pic{
+    width: 90%;
+    height: auto;
+    padding: 5%;
     border-radius: 200px;
     border: 1px solid #000 ;
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
-#Sabrina{
-    background-image: url("../images/Catherine-Ye.png");
-}
+/* GALLERY */
 
-#Catherine{
-    background-image: url("../images/Catherine-Ye.png");
-}
-
-/* PROJECTS */
-
-#project{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#project img{
+.overflow-el{
     width: 60%;
-    margin-bottom: 5%;
-}
-
-/* FONTS & COLORS */
-
-.two-section{
-    width: 45%;
-}
-
-.two-section img{
     padding-top: 5%;
-    width: 100%;
-}
-
-.display{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.display-two-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-/*LOGOTYPE FFFR*/
-
-.fffr-logo{
-    color: #fff;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #000000;
-    text-shadow: 2px 2px 0px #000000;
-}
-
-/* GENERIC FONTS */
-
-.font-syne{
-    font-family: 'Syne', sans-serif;
-}
-
-.font-outfit{
-    font-family: 'Outfit', sans-serif;
-}
-
-/* FANFIC-FR. FONTS */
-
-.font-radley{
-    font-family: 'Radley', serif;
-}
-
-.font-source{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.font-name{
-    font-size: 40px;
-}
-
-.cards{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-.color-card{
-    width: 20vh;
-    height: 15vh;
-    border-radius: 10px;
-    margin-right: -5%;
-    position: relative;
-    box-shadow: -3px 0px 4px 0px rgba(0, 0, 0, .2);
-}
-
-.color-card:hover{
-    width: 30vh;
-    transition-duration: 0.4s;
-}
-
-.color-card:not(hover){
-    transition-duration: 0.4s;
-}
-
-.font-card{
-    margin: 0;
-    position: absolute;
-    font-size: 30px;
-    line-height: 24px;
-    bottom: 10px;
-    left: 10px;
-}
-
-.font-card span{
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: 'Outfit', sans-serif;
-}
-
-/* GENERIC COLORS */
-
-#color-blue{
-    background-color: #1650E9;
-    color: #fff;
-}
-
-#color-black{
-    background-color: #333;
-    color: #fff;
-}
-
-#color-white{
-    background-color: #fff;
-    color: #333;
-}
-
-/* FANFIC-FR. COLORS */
-
-#fffr-color1{
-    background-color: #AECCF0;
-    color: #fff;
-}
-
-#fffr-color2{
-    background-color: #FFF9D9;
-    color: #AECCF0;
-}
-
-#fffr-color3{
-    background-color: #222222;
-    color: #fff;
-}
-
-#fffr-color4{
-    background-color: #E9E9E7;
-    color: #7D7C78;
-}
-
-#fffr-color5{
-    background-color: #A5A4A1;
-    color: #fff;
-}
-
-#fffr-color6{
-    background-color: #7D7C78;
-    color: #fff;
-}
-
-#fffr-color7{
-    background-color: #397E6B;
-    color: #fff;
-}
-
-#fffr-color8{
-    background-color: #B63434;
-    color: #fff;
-}
-
-
-/* TOOLS & CREATIVE PROCESS*/
-
-#details{
-    display: flex;
-}
-
-.tags{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.tags span{
-    padding: 8px 16px;
-    margin: 2px;
-    background-color: #fff;
-    border: 1px solid #333;
-    border-radius: 30px;
 }
 
 .project{
-    background-color: #F4F4F4;
+    margin-bottom: 50px; 
     width: 100%; 
-    height: 20vh;
-    margin-bottom: 5%;
+    height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
 }
 
+#Payot{
+    background-image: url(images/Vignette-Payot.png);
+}
+
+#Orlane{
+    background-image: url(images/Vignette-ORL.png);
+    color: #004F9D;
+}
+
+#Feneaks{
+    background-image: url(images/Vignette-Feneaks.png);
+    color: #fff;
+}
+
+#RolllP{
+    background-image: url(images/Vignette-RP.png);
+    color: #869CE5;
+}
+
+
+#fffr{
+    background-image: url(images/Vignette-fffr.png);
+}
+
+#Empacy{
+    background-image: url(images/Vignette-Empacy.png);
+    color: #316CEF;
+}
+
+#wokies{
+    background-image: url(images/Vignette-wokies.png);
+    color: #4EBE90;
+}
+
+h3{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
 
 footer{
     text-align: center;
-    margin: 10% 0;
+    margin-bottom: 5%;
 }
 
 /* Laptop */
 
 @media only screen and (max-width: 992px) {
 
-    nav{
-        bottom: 20px;
-    }   
-
-    #logo{
-        width: 20%;
-        height: auto;
-        position: fixed;
-        top: 30px;
-    }
-
-    .designers{
-
-        margin-right: 0%;
-    }
-
-    .presentation-designer{
-        width: 50%;
-        flex-direction: column;
-        text-align: center;
-    } 
-
-    h1{
-        font-size: 60px;
+    main{
+        width: 80%;
     }    
-
-    #project img{
-        width: 100%;
+    button{
+        font-size: 15px;
+    }
+    .fixed-el{
+        top: 5px;
+    }
+    .project{
+        height: 20vh;
     }
 
-    .display{
-        flex-direction: row;
-    }
-
-    .display-two-section{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .two-section{
-        width: 100%;
-    }
-    
-    .color-card{
-        width: 20vh;
-        height: 15vh;
-    }    
-}
+}    
 
 /* Tablet */
 
 @media only screen and (max-width: 768px) {
-    h4{
-        font-size: 20px;
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .hide{
-        display: none;
-    }
-
-    ul{
-        justify-content: space-around;
-    }
-    ul>a {
-        width: 33.3%;
-    }
-
-    .font-size{
+    button{
         font-size: 18px;
     }
 
-    .font-card{
-        font-size: 20px;
-    }
-    
-    .font-card span{
-        font-size: 14px;
+    #Pic{
+        width: 50%;
+        height: auto;
+        border-radius: 250px;
     }
 
-    .color-card{
-        margin-right: -2%;
+    .fixed-el{
+        width: 60%;
+        height: auto;
+        position:initial;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .project{
+        height: 35vh;
     }    
 
-    footer{
-        margin-bottom: 20%;
+    .overflow-el{
+        width: 90%;
     }
+    
 }
 
 /* Phone */
 
 @media only screen and (max-width: 500px) {
 
-    .display{
-        flex-direction: column;
+    .fixed-el{
+        padding-top: 5%;
+        width: 90%;
+    }
+    .project{
+        height: 30vh;
+    }    
+    h3{
+        left: 10px;
+        margin: 0;
+        bottom: 10px;
     }
 
 }
+
+/* Code test 
+
+*/
