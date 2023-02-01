@@ -76,6 +76,17 @@ h4{
     font-size: 26px;
 }
 
+@font-face {
+    font-family: 'Filson Pro';
+    src: url('custom-font/FilsonPro-Regular.eot');
+    src: url('custom-font/FilsonPro-Regular.woff') format('woff'),url('custom-font/FilsonPro-Regular.woff2') format('woff2'),
+         url('custom-font/FilsonPro-Regular.ttf') format('truetype'),
+         url('custom-font/FilsonPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .star{
     width: 15px;
     height: 15px;
@@ -214,6 +225,14 @@ section{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-filson{
+    font-family: 'Filson Pro';
+}
+
 .font-name{
     font-size: 40px;
 }
@@ -315,6 +334,43 @@ section{
     color: #fff;
 }
 
+/* ROLLL&PLAY COLORS */
+
+#rolllp-color1{
+    background-color: #869CE5;
+    color: #fff;
+}
+
+#rolllp-color2{
+    background-color: #F08CA3;
+    color: #fff;
+}
+
+#rolllp-color3{
+    background-color: #0F1243;
+    color: #fff;
+}
+
+#rolllp-color4{
+    background-color: #FFE3E2;
+    color: #0F1243;
+}
+
+#rolllp-color5{
+    background-color: #FFF9EB;
+    color: #0F1243;
+}
+
+#rolllp-color6{
+    background-color: #121212;
+    color: #fff;
+}
+
+#rolllp-color7{
+    background: linear-gradient(180deg, #FFE3E2 7.29%, #FFEAE2 33.33%, #FFF9EB 56.25%, #E8EDFE 82.81%, #C6D0F4 100%);
+    color: #0F1243;
+}
+
 /* TOOLS & CREATIVE PROCESS*/
 
 #details{
@@ -356,6 +412,14 @@ section{
 
 #Figma-FFFR2{
     background-image: url("../images/Vignette-fffr.png");
+}
+
+#Figma-RP{
+    background-image: url("rolllp/Vignette-RolllP-Desktop.png");
+}
+
+#Figma-RP2{
+    background-image: url("rolllp/Vignette-RolllP-Mobile.png");
 }
 
 footer{
