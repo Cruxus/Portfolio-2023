@@ -14,7 +14,7 @@ body{
 
 nav{
     width: 80%;
-    bottom: 10px;
+    bottom: 30px;
     border: 1px #333 solid;
     border-radius: 50px;
     background-color: #fff;
@@ -276,12 +276,18 @@ footer{
 @media only screen and (max-width: 992px) {
 
     nav{
-        bottom: 50px;
-    }    
+        bottom: 20px;
+    }   
+
+    #logo{
+        width: 20%;
+        height: auto;
+        position: fixed;
+        top: 30px;
+    }
 
     .designers{
-        width: 6vh;
-        height: 8vh;
+
         margin-right: 0%;
     }
 
@@ -290,9 +296,11 @@ footer{
         flex-direction: column;
         text-align: center;
     } 
+
     h1{
         font-size: 60px;
     }    
+
     #project img{
         width: 100%;
     }
@@ -320,7 +328,16 @@ footer{
 
 @media only screen and (max-width: 768px) {
     
-    
+    .hide{
+        display: none;
+    }
+
+    ul{
+        justify-content: space-around;
+    }
+    ul>a {
+        width: 30%;
+    }
 }
 
 /* Phone */
