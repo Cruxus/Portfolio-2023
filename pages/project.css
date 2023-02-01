@@ -525,6 +525,10 @@ footer{
     .display{
         flex-direction: column;
     }
+    .display div{
+        display: flex;
+        flex-direction: column;
+    }
 
     footer{
         margin-bottom: 30%;
