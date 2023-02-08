@@ -12,6 +12,11 @@ body{
     color: #333;
 }
 
+#feneaks-bg{
+    background-image: url("feneaks/background2.gif");
+    color: #FFF;
+}
+
 nav{
     width: 80%;
     bottom: 30px;
@@ -161,6 +166,10 @@ section{
 
 #Catherine{
     background-image: url("../images/Catherine-Ye.png");
+}
+
+#Ines{
+    background-image: url("../images/Ines-Anglionin.png");
 }
 
 /* PROJECTS */
@@ -478,6 +487,11 @@ section{
 
 #Figma-wokies{
     background-image: url("wokies/Figma-wokies.png");
+}
+
+#Figma-Feneaks{
+    background-image: url("feneaks/Figma-Feneaks.png");
+    color: #FFF;
 }
 
 footer{
