@@ -152,7 +152,11 @@ section{
 }
 
 #Sabrina{
-    background-image: url("../images/Catherine-Ye.png");
+    background-image: url("../images/Sabrina-Malki.png");
+}
+
+#Damien{
+    background-image: url("../images/Damien-Veau.png");
 }
 
 #Catherine{
@@ -231,6 +235,14 @@ section{
 
 .font-filson{
     font-family: 'Filson Pro';
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-inter{
+    font-family: 'Inter', sans-serif;
 }
 
 .font-name{
@@ -371,6 +383,48 @@ section{
     color: #0F1243;
 }
 
+/* THE WOKIES COLORS */
+
+#wokies-color1{
+    background-color: #4EBE90;
+    color: #FFF;
+}
+
+#wokies-color2{
+    background-color: #FFF8EA;
+    color: #000;
+}
+
+#wokies-color3{
+    background-color: #FFD2CC;
+    color: #000;
+}
+
+#wokies-color4{
+    background-color: #FFBE14;
+    color: #fff;
+}
+
+#wokies-color5{
+    background-color: #3757E1;
+    color: #fff;
+}
+
+#wokies-color6{
+    background-color: #EF2B00;
+    color: #fff;
+}
+
+#wokies-color7{
+    background-color: #F1F1F1;
+    color: #000;
+}
+
+#wokies-color8{
+    background-color: #9F9F9F;
+    color: #000;
+}
+
 /* TOOLS & CREATIVE PROCESS*/
 
 #details{
@@ -420,6 +474,10 @@ section{
 
 #Figma-RP2{
     background-image: url("rolllp/Vignette-RolllP-Mobile.png");
+}
+
+#Figma-wokies{
+    background-image: url("wokies/Figma-wokies.png");
 }
 
 footer{
